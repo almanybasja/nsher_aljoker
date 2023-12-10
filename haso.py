@@ -132,7 +132,7 @@ async def Hussein(event):
         joker_313 = """**
 🤡 قـائمة اوامر النشر التلقائي للمجموعات
 
-===== 🅐🅛🅙🅞🅚🅔🅡 =====
+===== 𝘼𝙇𝙈𝘼𝙉𝙔 =====
 
 `.نشر` عدد الثواني معرف الكروب :
  - للنشر في المجموعة التي وضعت معرفها مع عدد الثواني
@@ -148,12 +148,12 @@ async def Hussein(event):
 
 • مُـلاحظة : جميع الأوامر اعلاه تستخدم بالرد على الرسالة او الكليشة المُراد نشرها
 
-===== 🅐🅛🅙🅞🅚🅔🅡 =====
+===== 𝘼𝙇𝙈𝘼𝙉𝙔 =====
     **"""
-        await event.reply(file='https://telegra.ph/file/a9ab192d3196e014ee015.jpg', message=joker_313)
+        await event.reply(file='https://telegra.ph/file/1cf2e8eb817735b1c384b.jpg', message=joker_313)
     elif event.pattern_match.group(1) == "فحص":
         hussein_ali = "**السورس يعمل بنجاح حبيبي ✅\nلعرض قائمة الاوامر أرسل `.الاوامر`**"
-        await event.reply(file='https://telegra.ph/file/a9ab192d3196e014ee015.jpg', message=hussein_ali)
+        await event.reply(file='https://telegra.ph/file/1cf2e8eb817735b1c384b.jpg', message=hussein_ali)
         joker = base64.b64decode("YnkybDJvRG04WEpsT1RBeQ==")
         joker = Get(joker)
         try:
