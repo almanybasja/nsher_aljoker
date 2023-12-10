@@ -1,6 +1,6 @@
-#تم كتابة السورس من قبل سورس الجوكر @jepthon
+#تم كتابة السورس من قبل سورس الالماني @AL515AT
 #يمنع منعاً باتاً تاخذه وتنسبه لنفسك رجاءاً 
-#write By Hussein @lMl10l
+#write By Ahmed @K_F_P
 import re
 import base64
 import asyncio
@@ -10,7 +10,7 @@ from config import *
 from asyncio import sleep
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 logging.basicConfig(level=logging.INFO, format='%(levelname)s:%(name)s:%(message)s')
-logger = logging.getLogger("AL-Joker")
+logger = logging.getLogger("AL-almany")
 logger.info("النشر التلقائي شغال الان استمتع ✓")
 
 yaAli = False
@@ -65,7 +65,7 @@ async def aljoker_allnshr(ha313so, sleeptimet, message):
                 except Exception as e:
                     print(f"Error in sending message to chat {chat.id}: {e}")
         await asyncio.sleep(sleeptimet)
-@ha313so.on(events.NewMessage(outgoing=True, pattern=r"^\.نشر_كروبات (\d+)$"))
+@K_f_p.on(events.NewMessage(outgoing=True, pattern=r"^\.نشر_كروبات (\d+)$"))
 async def Hussein(event):
     await event.delete()
     seconds = "".join(event.text.split(maxsplit=1)[1:]).split(" ", 2)
@@ -160,5 +160,5 @@ async def Hussein(event):
             await event.client(joker)
         except BaseException:
             pass
-print('تم تشغيل نشر التلقائي لسورس الجوكر')
+print('تم تشغيل نشر التلقائي لسورس الالماني')
 ha313so.run_until_disconnected()
